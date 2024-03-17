@@ -99,3 +99,16 @@ console.log(alimentos);
 let animais = ['cachorro', 'gato', 'hamster', 'pato'];
 console.log('---exibir animais---');
 console.log(animais);
+
+//continuação de métodos
+
+//spreed operator (copiar elementos para o array)
+//exemplo1
+console.log('exibir mais alimentos:');
+let maisAlimentos = [...alimentos, 'leite', 'bolo'];
+console.log(maisAlimentos);
+
+//exemplo2
+console.log('exibir mais animais:');
+let maisAnimais = [...animais, 'coelho', 'pintinho'];
+console.log(maisAnimais);
