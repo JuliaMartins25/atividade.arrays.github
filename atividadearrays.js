@@ -90,3 +90,12 @@ novoB.reverse();
 console.log({ novoB });
 let novoBinvertido = novoB.reverse();
 console.log({ novoBinvertido });
+
+//Declaro novo array
+let alimentos = ['ovo', 'queijo', 'carne', 'pao'];
+console.log('---exibir alimentos---');
+console.log(alimentos);
+
+let animais = ['cachorro', 'gato', 'hamster', 'pato'];
+console.log('---exibir animais---');
+console.log(animais);
