@@ -132,3 +132,14 @@ console.log(meses);
 console.log('complete a abreviação seg:');
 semana[0] = 'segunda';
 console.log(semana);
+
+//acrescentar elemento na ultima posição 
+//exemplo2
+meses.push('maio');
+console.log('próximo mês de abril:');
+console.log(meses);
+
+//exemplo2
+semana.push('sex');
+console.log('proximo dia da semana:');
+console.log(semana);
