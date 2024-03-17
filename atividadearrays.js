@@ -29,3 +29,14 @@ console.log(numB.splice(4, 4));
 
 console.log('---exibir novo array numB---');
 console.log(numB);
+
+//comprimento do array
+//exemplo1
+console.log('comprimento do array numA:');
+numA.length;
+console.log(numA.length);
+
+//exemplo2
+numB.length;
+console.log('comprimento do array numB:');
+console.log(numB.length);
