@@ -40,3 +40,14 @@ console.log(numA.length);
 numB.length;
 console.log('comprimento do array numB:');
 console.log(numB.length);
+
+//Colocar em ordem crescente
+//exemplo1
+console.log('array numA em ordem crescente:');
+numA.sort();
+console.log(numA);
+
+//exemplo2
+console.log('array numB em ordem crescente:');
+numB.sort();
+console.log(numB);
