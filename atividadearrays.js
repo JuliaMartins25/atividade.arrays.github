@@ -121,3 +121,14 @@ console.log(meses)
 let semana = ['seg', 'ter', 'qua', 'qui'];
 console.log('---exibir semanas---');
 console.log(semana);
+
+//alterar alguma informação do array
+//exemplo1
+console.log('complete a abreviação jan:');
+meses[0] = 'janeiro';
+console.log(meses);
+
+//exemplo2
+console.log('complete a abreviação seg:');
+semana[0] = 'segunda';
+console.log(semana);
