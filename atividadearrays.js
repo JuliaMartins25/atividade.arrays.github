@@ -66,3 +66,14 @@ console.log('array numB junto com array novoB:');
 let novoB = numB.concat([5, 7, 4]);
 console.log(numB);
 console.log(novoB);
+
+//Buscar valores (esse método vai responder a posição que esse valor colocado dentro dos parentes se encontra)
+//se você colocar um valor que não tem ele ira retornar como resposta -1
+novoA.indexOf();
+console.log('encontre a posição que esta o número 5 do vetor novoA' );
+console.log(novoA.indexOf(5));
+
+//exemplo2
+novoB.indexOf();
+console.log('encontre a posição que esta o número 2 do vetor novoB');
+console.log(novoB.indexOf(2));
