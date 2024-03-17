@@ -51,3 +51,18 @@ console.log(numA);
 console.log('array numB em ordem crescente:');
 numB.sort();
 console.log(numB);
+
+//juntar dois array
+//exemplo1
+numA.concat
+console.log('array numA junto com array novoA:');
+let novoA = numA.concat([1, 6, 9]);
+console.log(numA);
+console.log(novoA);
+
+//exemplo2
+numB.concat
+console.log('array numB junto com array novoB:');
+let novoB = numB.concat([5, 7, 4]);
+console.log(numB);
+console.log(novoB);
