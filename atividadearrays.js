@@ -112,3 +112,12 @@ console.log(maisAlimentos);
 console.log('exibir mais animais:');
 let maisAnimais = [...animais, 'coelho', 'pintinho'];
 console.log(maisAnimais);
+
+//declaro novo array
+let meses = ['jan', 'fev', 'mar', 'abr'];
+console.log('---exibir meses---');
+console.log(meses)
+
+let semana = ['seg', 'ter', 'qua', 'qui'];
+console.log('---exibir semanas---');
+console.log(semana);
