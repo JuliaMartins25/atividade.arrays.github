@@ -77,3 +77,16 @@ console.log(novoA.indexOf(5));
 novoB.indexOf();
 console.log('encontre a posição que esta o número 2 do vetor novoB');
 console.log(novoB.indexOf(2));
+
+//modifica a ordem do array original
+//exemplo1
+novoA.reverse();
+console.log({ novoA });
+let novoAinvertido = novoA.reverse();
+console.log({ novoAinvertido });
+
+//exemplo2
+novoB.reverse();
+console.log({ novoB });
+let novoBinvertido = novoB.reverse();
+console.log({ novoBinvertido });
