@@ -11,3 +11,21 @@ console.log(numA);
 
 console.log("--- exibir Array B ---");
 console.log(numB);
+
+//exemplos de métodos
+
+//Remover valor que está em uma posição expecífica (apartir do indicie tal eu vou apagar tantos elementos)
+//exemplo1
+console.log('---exibir valores removidos de numA---');
+numA.splice();
+console.log(numA.splice(5, 4));
+
+console.log('---exibir novo array numA---');
+console.log(numA);
+
+//exemplo2
+console.log('---exibir valores removidos de numB---');
+console.log(numB.splice(4, 4));
+
+console.log('---exibir novo array numB---');
+console.log(numB);
