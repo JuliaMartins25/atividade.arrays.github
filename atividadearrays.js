@@ -143,3 +143,16 @@ console.log(meses);
 semana.push('sex');
 console.log('proximo dia da semana:');
 console.log(semana);
+
+//copiar array
+//exemplo1
+meses.slice();
+console.log({meses});
+let mesescopiado = meses.slice();
+console.log({mesescopiado});
+
+//exemplo2
+semana.slice();
+console.log({semana});
+let semanacopiada = semana.slice();
+console.log({semanacopiada});
